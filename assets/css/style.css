@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100vh; 
     
-    background: url("../images/intro.jpg.jpg") center no-repeat;
+    background-color: #333;
     background-size: cover;
 }
 
@@ -161,7 +161,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Section */
 .section {
     padding: 80px 0;
-    background: black;
+    /*background: url("../images/Без\ имени-2.png") center no-repeat;*/
+    background-color: aqua;
+    background-attachment: fixed;
 }
 
 .section_header {
@@ -212,9 +214,19 @@ h1, h2, h3, h4, h5, h6 {
 /* section_GameMakerStudio2 */
 .section_GameMakerStudio2 {
     padding: 80px 0;
-    background: url("../images/gamemaker-mac-1.jpg");
+    background: url("../images/Без\ имени-3.png");
+    background-attachment: fixed;
 }
 
 .section_GameMaker_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: right;
+}
+
+/* section_UnrealEngine */
+.section_UnrealEngine {
+    background-color: aquamarine;
+    background-attachment: fixed;
 }
