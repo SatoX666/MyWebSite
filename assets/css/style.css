@@ -175,6 +175,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+
 .section_title {
     font-size: 74px;
     font-family: Arial Narrow, sans-serif;
@@ -198,6 +199,15 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+.section_header_project {
+    width: 100%;
+    max-width: 950px;
+    height: 260px;
+    margin: 0 auto 40px 500px;
+
+    text-align: center; 
+}
+
 /* GitHub link*/
 .GitHub_link {
     color: white;
@@ -217,6 +227,8 @@ h1, h2, h3, h4, h5, h6 {
     background: url("../images/Без\ имени-3.png");
     background-attachment: fixed;
 }
+
+
 
 .section_GameMaker_text {
     display: flex;
