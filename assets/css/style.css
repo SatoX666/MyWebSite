@@ -396,7 +396,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 260px;
     margin: -150px auto 40px 500px;
 
-    text-align: center; 
+    text-align: center;
+    position: relative; 
 }
 
 .section_UnrealEngine_quotation_icon {
