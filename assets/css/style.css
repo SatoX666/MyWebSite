@@ -214,30 +214,19 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-/* section Project */
-.section_header_project {
-    width: 100%;
-    max-width: 950px;
-    height: 260px;
-    margin: -150px auto 40px 500px;
-
-    text-align: center; 
-}
-
-
-.section_header_project_icon {
-    width: 100%;
-    max-width: 360px;
-    height: 260px;
-
-    position: relative;
-}
-
 /* section_Lazarus */
 .section_Lazarus {
     padding: 80px 0;
     background: url("../images/Lazarus-section-background.jpg");
     background-attachment: fixed;
+}
+
+.section_header_Lazarus_icon {
+    width: 100%;
+    max-width: 360px;
+    height: 260px;
+
+    position: relative;
 }
 
 .section_Lazarus_icon {
@@ -250,11 +239,20 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
 }
 
+.section_header_Lazarus {
+    width: 100%;
+    max-width: 950px;
+    height: 260px;
+    margin: -150px auto 40px 500px;
+
+    text-align: center; 
+}
+
 .section_Lazarus_quotation_icon {
     width: 70px;
     height: 70px;
 
-    top: 160px;
+    top: 1700px;
     right: 80px;
 
     background: none;
@@ -275,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     color: white;
 
-    top: 1980px;
+    top: 1920px;
     right: 80px;
 
     position: absolute;
@@ -285,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     color: dimgray;
 
-    top: 2010px;
+    top: 1945px;
     right: 80px;
 
     position: absolute;
@@ -298,22 +296,39 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
 }
 
+.section_header_GameMakerStudio2_icon {
+    width: 100%;
+    max-width: 360px;
+    height: 260px;
+
+    position: relative;
+}
+
 .section_GameMakerStudio2_icon {
     width: 300px;
     height: 300px;
 
     top: 0px;
-    right: 240px;
+    right: -1000px;
     
     position: absolute;
 }
 
-.section_GameMakerStudio2_quotation_icon {
-    width: 80px;
-    height: 30px;
+.section_header_GameMakerStudio2 {
+    width: 100%;
+    max-width: 950px;
+    height: 260px;
+    margin: -150px 570px 40px -300px;
 
-    top: 20px;
-    right: 80px;
+    text-align: center; 
+}
+
+.section_GameMakerStudio2_quotation_icon {
+    width: 70px;
+    height: 70px;
+
+    top: 2200px;
+    left: 20px;
 
     position: absolute;
 }
@@ -325,15 +340,16 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: right;
+    text-align: left;
 }
 
-.secrion_GameMakerStudio2_author {
+.section_GameMakerStudio2_author {
     font-size: 18px;
     color: white;
+    align-items: center;
+    text-align: left;
 
-    top: 1980px;
-    right: 80px;
+    top: 2460px;
 
     position: absolute;
 }
@@ -341,34 +357,53 @@ h1, h2, h3, h4, h5, h6 {
 .section_GameMakerStudio2_title {
     font-size: 16px;
     color: dimgray;
+    align-items: center;
+    text-align: left;
 
-    top: 2010px;
-    right: 80px;
+    top: 2485px;
 
     position: absolute; 
 }
 
 /* section_UnrealEngine */
 .section_UnrealEngine {
-    background-color: aquamarine;
+    padding: 80px 0;
+    background: url("../images/newsroom-share-1200x630-1200x630-81a01bee1d9a.jpg");
     background-attachment: fixed;
 }
 
-.section_Unrealengine_icon {
-    width: 300px;
-    height: 300px;
+.section_header_UnrealEngine_icon {
+    width: 100%;
+    max-width: 360px;
+    height: 260px;
 
-    top: 0px;
-    right: 240px;
+    position: relative;
+}
+
+.section_UnrealEngine_icon {
+    width: 700px;
+    height: 500px;
+
+    top: -50px;
+    right: -40px;
     
     position: absolute;
 }
 
-.section_UnrealEngine_quotation_icon {
-    width: 80px;
-    height: 30px;
+.section_header_UnrealEngine {
+    width: 100%;
+    max-width: 950px;
+    height: 260px;
+    margin: -150px auto 40px 500px;
 
-    top: 40px;
+    text-align: center; 
+}
+
+.section_UnrealEngine_quotation_icon {
+    width: 70px;
+    height: 70px;
+
+    top: 2770px;
     right: 80px;
 
     background: none;
@@ -389,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     color: white;
 
-    top: 1980px;
+    top: 2985px;
     right: 80px;
 
     position: absolute;
@@ -399,34 +434,52 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     color: dimgray;
 
-    top: 2010px;
+    top: 3010px;
     right: 80px;
+
 
     position: absolute; 
 }
 
 /* section Blender*/
 .section_Blender {
-    padding: 80px 0;
-    background: url("");
+    padding: 50px 0;
+    background: url("../images/Blender-section-background.jpg");
     background-attachment: fixed;
 }
 
+.section_header_Blender_icon {
+    width: 100%;
+    max-width: 360px;
+    height: 260px;
+
+    position: relative;
+}
+
 .section_Blender_icon {
-    width: 300px;
+    width: 700px;
     height: 300px;
 
     top: 0px;
-    right: 240px;
+    right: -100px;
     
     position: absolute;
 }
 
-.section_Blender_quotation_icon {
-    width: 80px;
-    height: 30px;
+.section_header_Blender {
+    width: 100%;
+    max-width: 950px;
+    height: 260px;
+    margin: -150px auto 40px 500px;
 
-    top: 60px;
+    text-align: center; 
+}
+
+.section_Blender_quotation_icon {
+    width: 70px;
+    height: 70px;
+
+    top: 3320px;
     right: 80px;
 
     position: absolute;
@@ -446,7 +499,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     color: white;
 
-    top: 1980px;
+    top: 3520px;
     right: 80px;
 
     position: absolute;
@@ -456,7 +509,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     color: dimgray;
 
-    top: 2010px;
+    top: 3540px;
     right: 80px;
 
     position: absolute; 
@@ -469,6 +522,14 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
 }
 
+.section_header_ArtGallery_icon {
+    width: 100%;
+    max-width: 360px;
+    height: 260px;
+
+    position: relative;
+}
+
 .section_ArtGallery_icon {
     width: 300px;
     height: 300px;
@@ -477,6 +538,15 @@ h1, h2, h3, h4, h5, h6 {
     right: 240px;
     
     position: absolute;
+}
+
+.section_header_ArtGallery {
+    width: 100%;
+    max-width: 950px;
+    height: 260px;
+    margin: -150px auto 40px 500px;
+
+    text-align: center; 
 }
 
 .section_ArtGallery_quotation_icon {
