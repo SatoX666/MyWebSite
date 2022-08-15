@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 /* section_Lazarus */
 .section_Lazarus {
     padding: 80px 0;
-    background: url("../images/Lazarus-section-background.jpg");
+    background: url("../images/Lazarus-section-background.png");
     background-attachment: fixed;
 }
 
@@ -243,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     max-width: 950px;
     height: 260px;
-    margin: -150px auto 40px 500px;
+    margin: -150px auto -39px 500px;
 
     text-align: center; 
 }
@@ -252,8 +252,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 70px;
     height: 70px;
 
-    top: 1700px;
-    right: 80px;
+    top: 1780px;
+    right: 82px;
 
     background: none;
     position: absolute;
@@ -273,8 +273,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     color: white;
 
-    top: 1920px;
-    right: 80px;
+    top: 1964px;
+    right: 100px;
 
     position: absolute;
 }
@@ -283,8 +283,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     color: dimgray;
 
-    top: 1945px;
-    right: 80px;
+    top: 1985px;
+    right: 100px;
 
     position: absolute;
 }
@@ -327,8 +327,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 70px;
     height: 70px;
 
-    top: 2200px;
-    left: 20px;
+    top: 2274px;
+    left: 36px;
 
     position: absolute;
 }
@@ -349,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     text-align: left;
 
-    top: 2460px;
+    top: 2500px;
 
     position: absolute;
 }
@@ -360,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     text-align: left;
 
-    top: 2485px;
+    top: 2520px;
 
     position: absolute; 
 }
@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
 /* section_UnrealEngine */
 .section_UnrealEngine {
     padding: 80px 0;
-    background: url("../images/newsroom-share-1200x630-1200x630-81a01bee1d9a.jpg");
+    background: url("../images/UnrealEngine-section-background.png");
     background-attachment: fixed;
 }
 
@@ -404,8 +404,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 70px;
     height: 70px;
 
-    top: 2770px;
-    right: 80px;
+    top: -50px;
+    right: -17px;
 
     background: none;
     position: absolute;
@@ -425,8 +425,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     color: white;
 
-    top: 2985px;
-    right: 80px;
+    top: 136px;
+    right: 5px;
 
     position: absolute;
 }
@@ -435,8 +435,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     color: dimgray;
 
-    top: 3010px;
-    right: 80px;
+    top: 157px;
+    right: 5px;
 
 
     position: absolute; 
@@ -445,7 +445,7 @@ h1, h2, h3, h4, h5, h6 {
 /* section Blender*/
 .section_Blender {
     padding: 50px 0;
-    background: url("../images/Blender-section-background.jpg");
+    background: url("../images/Blender-section-background.png");
     background-attachment: fixed;
 }
 
@@ -480,8 +480,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 70px;
     height: 70px;
 
-    top: 3320px;
-    right: 80px;
+    top: 3388px;
+    right: 82px;
 
     position: absolute;
 }
@@ -500,8 +500,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     color: white;
 
-    top: 3520px;
-    right: 80px;
+    top: 3568px;
+    right: 100px;
 
     position: absolute;
 }
@@ -510,8 +510,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     color: dimgray;
 
-    top: 3540px;
-    right: 80px;
+    top: 3588px;
+    right: 100px;
 
     position: absolute; 
 }
