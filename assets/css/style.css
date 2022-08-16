@@ -591,40 +591,77 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute; 
 }
 
+
 /*section career*/
 .section_career {
-    padding: 50px 0;
+    padding: 170px 0;
     background: grey;
 }
 
-.section_career_text {
+.section_transition_career {
+    margin: 0px auto 40px;
+}
 
+.section_transition_career_text {
+    font-size: 84px;
+    font-family: Arial Narrow, sans-serif;
+    color: white;
+    cursor: default;
+    text-align: center;
+}
+
+
+/*section career text*/
+.section_career_text {
+    padding: 50px 0px 120px;
+    background: #333;
+}
+
+.section_career_text_introduction {
+    font-size: 16px;
+    text-align: left;
+    padding: 0px 0px 16px;
+    line-height: 2;
 }
 
 .section_career_quotation_icon {
     width: 70px;
     height: 70px;
 
-    top: 80px;
-    right: 80px;
+    top: 4451px;
+    right: 1373px;
 
     position: absolute;   
 }
 
-.section_career_text {
-    padding: 50px 0;
-    background: black;
+.section_career_text_quotation {
+    font-size: 20px;
+    text-align: left;
+    padding: 64px 0px 0px 0px;
 }
 
-.section_career_text_introduction{
+.section_career_text_part1 {
+   font-size: 16px;
+   text-align: left;
+   line-height: 2;
+   padding: 28px 0px 0px 0px; 
+}
+
+.section_career_text_part2 {
     font-size: 16px;
     text-align: left;
+    padding: 28px 0px 0px 0px;
 }
+
 
 /*section strenghts*/
 .section_strengths {
     padding: 50px 0;
     background: gray;
+}
+
+.section_strengths_text {
+
 }
 
 /*section strenghts list*/
