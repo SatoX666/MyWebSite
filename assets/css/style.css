@@ -620,3 +620,33 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     text-align: left;
 }
+
+/*section strenghts*/
+.section_strengths {
+    padding: 50px 0;
+    background: gray;
+}
+
+/*section strenghts list*/
+.section_strengths_list {
+    padding: 50px 0;
+    background: #333;
+}
+
+/*section about me*/
+.section_about_me {
+    padding: 50px 0;
+    background: gray;
+}
+
+/*section about me list*/
+.section_about_me_list {
+    padding: 50px 0;
+    background: black;
+}
+
+/*section contact*/
+.section_contact {
+    padding: 50px 0;
+    background: #333;
+}
