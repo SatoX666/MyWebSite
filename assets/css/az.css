@@ -121,13 +121,12 @@ nav [type=checkbox]:checked ~ div {
     background: #00000050;
 }
 
-#careers ~ div > [for=careers],
-#projects ~ div > [for=projects] {
+nav [type=checkbox] ~ div > [for] {
     display: none;
 }
 
-#careers:not(:checked) ~ div > [for=careers],
-#projects:not(:checked) ~ div > [for=projects] {
+#careers:checked ~ div > [for=careers],
+#projects:checked ~ div > [for=projects] {
     display: block;
     position: fixed;
     top: 80px;

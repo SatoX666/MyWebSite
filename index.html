@@ -38,11 +38,9 @@
     </div>
 </header>
 <script>
-    let cb_p = document.getElementById('projects')
-    let cb_c = document.getElementById('careers')
-    let switcher = document.getElementById('switcher')
-    cb_p.onchange = () => cb_c.checked = false
-    cb_c.onchange = () => cb_p.checked = false
+    const cb_p = document.getElementById('projects')
+    const cb_c = document.getElementById('careers')
+    const switcher = document.getElementById('switcher')
     switcher.onclick = () => cb_c.checked = cb_p.checked = false
 
 </script>
