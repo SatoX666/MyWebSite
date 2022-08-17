@@ -1,0 +1,135 @@
+/*section strenghts*/
+.section_strengths {
+    padding: 50px 0;
+    background: gray;
+}
+
+.section_strengths_text {
+
+}
+
+
+/*section strenghts list*/
+.section_strengths_list {
+    padding: 50px 0;
+    background: #333;
+}
+
+.container_strenghts_1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.section_header_problem_solving {
+    width: 100%;
+    max-width: 540px;
+    /*height: 260px;*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.problem_sovling_icon {
+    width: 200px;
+    text-align: center;
+    margin: 0px 0px 0px 160px;
+}
+
+.problem_sovling_title {
+    text-align: center;
+    font-size: 26px;
+    font-family: Roboto;
+}
+
+.problem_solving_description {
+    text-align: left;
+    font-size: 16px;
+    font-family: Roboto;
+    margin: 32px 0px 0px 0px;
+}
+
+.section_header_manner_of_thought {
+    
+}
+
+.manner_of_thought {
+    
+}
+
+.manner_of_thought_title {
+    
+}
+
+.manner_of_thought_description {
+    
+}
+
+.section_header_leadership_skills {
+    
+}
+
+.leadership_skills {
+    
+}
+
+.leadership_skills_title {
+    
+}
+
+.leadership_skills_description {
+    
+}
+
+.section_header_flexibility_and_punctuality {
+    
+}
+
+.watch_icon {
+    
+}
+
+.flexibility_and_punctuality_title {
+    
+}
+
+.flexibility_and_punctuality_description {
+    
+}
+
+.section_header_learning_and_working {
+    
+}
+
+.learning_and_working_icon {
+    
+}
+
+.learning_and_working_title {
+    
+}
+
+.learning_and_working_description {
+    
+}
+
+.section_header_remotely_work {
+    
+}
+
+.remotely_work_icon {
+    
+}
+
+.remotely_work_title {
+    
+}
+
+.remotely_work_description {
+    
+}

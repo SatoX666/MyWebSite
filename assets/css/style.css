@@ -1,3 +1,5 @@
+@import url(../css/strenghts.css);
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -653,22 +655,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 28px 0px 0px 0px;
 }
 
-
-/*section strenghts*/
-.section_strengths {
-    padding: 50px 0;
-    background: gray;
-}
-
-.section_strengths_text {
-
-}
-
-/*section strenghts list*/
-.section_strengths_list {
-    padding: 50px 0;
-    background: #333;
-}
 
 /*section about me*/
 .section_about_me {
