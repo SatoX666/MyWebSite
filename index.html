@@ -8,8 +8,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/strenghts.css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext"
-          rel="stylesheet">
+    <link rel="stylesheet" href="assets/script.js">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext"rel="stylesheet">
     <script src="https://kit.fontawesome.com/2414ffeffe.js" crossorigin="anonymous"></script>
     <title>Welcome</title>
 </head>
@@ -37,35 +37,26 @@
         <a href="#"><i class="fab fa-discord"></i></a>
         </div>
     </header>
-<script>
-    const cb_p = document.getElementById('projects')
-    const cb_c = document.getElementById('careers')
-    const switcher = document.getElementById('switcher')
-    switcher.onclick = () => cb_c.checked = cb_p.checked = false
 
-</script>
+    <script>
+        const cb_p = document.getElementById('projects')
+        const cb_c = document.getElementById('careers')
+        const switcher = document.getElementById('switcher')
+        switcher.onclick = () => cb_c.checked = cb_p.checked = false
+    </script>
+
     <div class="intro">
-        <div class="container">
-            <div class="intro_inner">
-            <h2 class="intro_subtitle">Welcome and enjoy my WebSite</h2>
-            <h1 class="intro_title">I'm enjoying to build beautiful WebSites and UI's</h1>
-
-                <a class="btn" href="#">Learn More</a>
-            </div>  
-        </div>
+        <span id="welcome">Welcome to my WebSite</span>
+        <span class="title">I'm enjoying to build beautiful WebSites and UI</span>     
     </div>
 
-    <section class="section">
-        <div class="container">
-            <div class="section_header">
-                <h2 class="section_title">Learn More</h2>
-            <h3 class="section_suptitle">Want to see more of my work? Check out my projects on <a
-                    href="https://github.com/Mikoma03" class="GitHub_link">GitHub.</a></h3>
-            </div>
-        </div>
-            <div class="section_transition_pojects">
-                <h1 class="section_transition_projects">Projects</h1>
-            </div>
+    <section class="welcome">
+        <div class="header">
+            <span class="title">Learn More</span>
+            <span class="subtitle">Want to see more of my work? Check out my projects on 
+            <a href="https://github.com/Mikoma03" class="GitHub_link">GitHub.</a></span>
+            <span class="transition">Projects</span>
+        </div>      
     </section>
 
 
@@ -77,7 +68,7 @@
             Pascal-based program using strongly typed Delphi language gave me great joy, my first projects were done here.
             <div class="sub">
                 <span class="author">© Dmitry Larkin</span>
-                <span class="title">WebDev</span>
+                <span class="subauthor">WebDev</span>
             </div>
             </div>
         </div>
@@ -133,12 +124,10 @@
     </section>
 
 
-    <section class="section_career">
-        <div class="container">
+    <section class="career">
             <div class="section_transition_career">
                 <h2 class="section_transition_career_text">My Career</h2>
             </div>
-        </div>
     </section>  
     
     
@@ -164,7 +153,7 @@
     <section class="section_strengths">
         <div class="container">
             <div class="section_header">
-                <h2 class="section_strenghts_text">Strengths</h2>
+                <h2 class="section_transition_projects">Strengths</h2>
             </div>
         </div>
     </section>
