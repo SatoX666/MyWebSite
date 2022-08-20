@@ -1,16 +1,12 @@
-@import url(../css/strenghts.css);
-
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    color:white;
+    color: white;
     line-height: 1.6;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
     box-sizing: border-box;
 }
 
@@ -63,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white;
 }
 
-.intro_suptitle {
+.intro_subtitle {
     margin-bottom: 15px;
 
     font-size: 72px;
@@ -71,18 +67,24 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Kaushan Script', cursive;
 }
 
-/* Header */
-.header {
+header {
     width: 100%;
-    padding-top: 30px;
+    padding: 0 4rem;
+    height: 72px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 999;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    justify-items: center;
+    align-items: center;
+    background: #00000080;
+    border-bottom: solid 1px #ffffff30
 }
 
-.header_logo {
+header .logo {
     font-size: 30px;
     font-weight: 700;
     color: #fff;
@@ -94,26 +96,66 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-/* Nav */
-.nav {
-    font-size: 14px;
-    text-transform: uppercase;
+nav {
+    display: flex;
+    gap: 1rem;
+    position: relative;
 }
 
-.nav_link {
+nav [type=checkbox] {
+    display: none;
+}
+
+nav [type=checkbox] ~ div {
+    display: none;
+}
+
+nav [type=checkbox]:checked ~ div {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: #00000050;
+}
+
+nav [type=checkbox] ~ div > [for] {
+    display: none;
+}
+
+#careers:checked ~ div > [for=careers],
+#projects:checked ~ div > [for=projects] {
+    display: block;
+    position: fixed;
+    top: 80px;
+    width: 50vw;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #000000d0;
+    text-shadow: 0 0 5px black;
+    border-radius: 5px;
+}
+
+nav a, nav label {
     display: inline-block;
     vertical-align: top;
-    margin: 0 10px;
     position: relative;
-    right: 380px;
-
-    color:#fff;
+    color: #fff;
     text-decoration: none;
-
     transition: color .1s linear;
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
-.nav_link:after {
+nav a:after, nav label:after {
     content: "";
     display: block;
     width: 100%;
@@ -130,12 +172,22 @@ h1, h2, h3, h4, h5, h6 {
     transition: opacity .1s linear;
 }
 
-.nav_link:hover {
+nav a:hover, nav label:hover {
     color: #fce38a;
 }
 
-.nav_link:hover:after {
+nav a:hover:after, nav label:hover:after {
     opacity: 1;
+}
+
+.social_media {
+    display: flex;
+    gap: 1rem
+}
+
+.social_media a {
+    color: #fce38a;
+    font-size: 14pt;
 }
 
 /* Button */
@@ -203,7 +255,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /* GitHub link*/
 .GitHub_link {
     color: white;
@@ -217,11 +268,84 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-/* section_Lazarus */
-.section_Lazarus {
-    padding: 80px 0;
-    background: url("../images/Lazarus-section-background.png");
+section.Lazarus {
+    background: url("../images/Lazarus-section-background.png")
+}
+
+section.GameMakerStudio2 {
+    background: url("../images/GameMakersection-background.png")
+}
+
+section.UnrealEngine {
+    background: url("../images/UnrealEngine-section-background.png")
+}
+
+section.Blender {
+    background: url("../images/Blender-section-background.png")
+}
+
+section.skill {
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 500px;
+}
+
+section.skill .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 3rem;
+    gap: 5rem;
+    height: 100%;
+}
+
+section.skill .container.reverse {
+    flex-direction: row-reverse;
+}
+
+section.skill .container.reverse .with_quotation {
+    padding-left: 2rem;
+}
+
+section.skill .container.reverse .with_quotation:before,
+section.skill .container.reverse .with_quotation .sub {
+    right: unset;
+    left: 3rem;
+    align-items: flex-start;
+}
+
+.with_quotation {
+    text-shadow: 0 0 5px black;
+    position: relative;
+    font-family: Arial Narrow, sans-serif;
+}
+
+.with_quotation:before {
+    background: url("../images/quotation.png");
+    background-size: 70px 70px;
+    content: " ";
+    height: 70px;
+    width: 70px;
+    display: block;
+    position: absolute;
+    top: -70px;
+    right: 3rem;
+}
+
+.with_quotation .sub {
+    position: absolute;
+    right: 3rem;
+    bottom: -4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+section.skill img {
+    width: 250px;
 }
 
 .section_header_Lazarus_icon {
@@ -236,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 300px;
     height: 300px;
 
-    top: 0px;
+    top: 0;
     right: 240px;
 
     position: absolute;
@@ -311,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 300px;
     height: 300px;
 
-    top: 0px;
+    top: 0;
     right: -1000px;
 
     position: absolute;
@@ -461,10 +585,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section_Blender_icon {
-    width: 700px;
+
     height: 300px;
 
-    top: 0px;
+    top: 0;
     right: -100px;
 
     position: absolute;
@@ -643,10 +767,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section_career_text_part1 {
-   font-size: 16px;
-   text-align: left;
-   line-height: 2;
-   padding: 28px 0px 0px 0px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 2;
+    padding: 28px 0px 0px 0px;
 }
 
 .section_career_text_part2 {
@@ -672,4 +796,10 @@ h1, h2, h3, h4, h5, h6 {
 .section_contact {
     padding: 50px 0;
     background: #333;
+}
+
+@media screen and (max-width: 800px) {
+    section.skill .container {
+        flex-direction: column !important;
+    }
 }
