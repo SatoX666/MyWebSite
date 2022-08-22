@@ -241,11 +241,8 @@ body {
 
 /*section career text*/
 .career {
-    background: black;
-}
-
-.career .topic {
     height: 630px;
+    background: black;
 }
 
 .career .transition {
