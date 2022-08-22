@@ -240,9 +240,23 @@ body {
 
 
 /*section career text*/
-.section_career_text {
-    padding: 50px 0px 120px;
-    background: #333;
+.career {
+    background: black;
+}
+
+.career .topic {
+    height: 630px;
+}
+
+.career .transition {
+    color: white;
+    font-size: 74px;
+    font-family: Robotic;
+    cursor: default;
+
+    display: flex;
+    justify-content: center;
+    margin: 200px 0 0 0;
 }
 
 .section_career_text_introduction {
