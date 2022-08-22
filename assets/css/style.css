@@ -190,7 +190,7 @@ body {
     cursor: default;
 }
 
-.welcome .suptitle {
+.welcome .subtitle {
     color: white;
     font-size: 18px;
     font-family: Robotic;
@@ -198,20 +198,19 @@ body {
 }
 
 .welcome .transition {
-    font-size: 84px;
-    font-family: Arial Narrow, sans-serif;
     color: white;
+    font-size: 84px;
+    font-family: Robotic;
     cursor: default;
-    margin: 0 auto 40px;
-
-    text-align: center;
+    
+    position: absolute;
+    bottom: -32rem;
+    left: 51rem;
 }
-
 
 /* GitHub link*/
 .GitHub_link {
     color: white;
-    cursor: default;
     text-decoration: none;
 }
 
@@ -219,86 +218,6 @@ body {
     color: blue;
     cursor: pointer;
     text-decoration: underline;
-}
-
-.Lazarus {
-    background: url("../images/Lazarus-section-background.png")
-}
-
-.GameMakerStudio2 {
-    background: url("../images/GameMakersection-background.png")
-}
-
-.UnrealEngine {
-    background: url("../images/UnrealEngine-section-background.png")
-}
-
-.Blender {
-    background: url("../images/Blender-section-background.png")
-}
-
-.skill {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    min-height: 500px;
-}
-
-.skill .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5rem 3rem;
-    gap: 5rem;
-    height: 100%;
-}
-
-.skill .container.reverse {
-    flex-direction: row-reverse;
-}
-
-.skill .container.reverse .with_quotation {
-    padding-left: 2rem;
-}
-
-.skill .container.reverse .with_quotation:before,
-.skill .container.reverse .with_quotation .sub {
-    right: unset;
-    left: 3rem;
-    align-items: flex-start;
-}
-
-.with_quotation {
-    text-shadow: 0 0 5px black;
-    position: relative;
-    font-family: Arial Narrow, sans-serif;
-}
-
-.with_quotation:before {
-    background: url("../images/quotation.png");
-    background-size: 70px 70px;
-    content: " ";
-    height: 70px;
-    width: 70px;
-    display: block;
-    position: absolute;
-    top: -70px;
-    right: 3rem;
-}
-
-.with_quotation .sub {
-    position: absolute;
-    right: 3rem;
-    bottom: -4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    color: cornflowerblue;
-    font-weight: bold;
-}
-
-.skill img {
-    width: 250px;
 }
 
 /*section career*/

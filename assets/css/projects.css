@@ -1,0 +1,88 @@
+.Lazarus {
+    background: url("../images/Lazarus-section-background.png")
+}
+
+.GameMakerStudio2 {
+    background: url("../images/GameMakersection-background.png")
+}
+
+.UnrealEngine {
+    background: url("../images/UnrealEngine-section-background.png")
+}
+
+.Blender {
+    background: url("../images/Blender-section-background.png")
+}
+
+.skill {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+.skill .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 3rem;
+    gap: 45rem;
+    height: 100%;
+}
+
+.skill .container.reverse {
+    flex-direction: row-reverse;
+}
+
+.skill .container.reverse .with_quotation {
+    padding-left: 2rem;
+}
+
+.skill .container.reverse .with_quotation:before,
+.skill .container.reverse .with_quotation {
+    right: unset;
+    left: 1rem;
+    align-items: flex-start;
+}
+
+.skill .container.reverse .sub {
+    right: unset;
+    align-items: flex-start;
+}
+
+.with_quotation {
+    color: white;
+    font-size: 20px;
+    font-family: Robotic;
+    text-shadow: 0 0 5px black;
+    position: relative;
+}
+
+.with_quotation:before {
+    background: url("../images/quotation.png");
+    background-size: 70px 70px;
+    content: " ";
+    height: 70px;
+    width: 70px;
+    display: block;
+    position: absolute;
+    top: -70px;
+    right: 1rem;
+}
+
+.with_quotation .sub {
+    color: cornflowerblue;
+    font-weight: bold;
+
+    position: absolute;
+    right: 1rem;
+    bottom: -4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.skill .icon {
+    width: 250px;
+}
