@@ -238,61 +238,6 @@ body {
     text-align: center;
 }
 
-
-/*section career text*/
-.career {
-    height: 630px;
-    background: black;
-}
-
-.career .transition {
-    color: white;
-    font-size: 74px;
-    font-family: Robotic;
-    cursor: default;
-
-    display: flex;
-    justify-content: center;
-    margin: 200px 0 0 0;
-}
-
-.section_career_text_introduction {
-    font-size: 16px;
-    text-align: left;
-    padding: 0px 0px 16px;
-    line-height: 2;
-}
-
-.section_career_quotation_icon {
-    width: 70px;
-    height: 70px;
-
-    top: 4451px;
-    right: 1373px;
-
-    position: absolute;
-}
-
-.section_career_text_quotation {
-    font-size: 20px;
-    text-align: left;
-    padding: 64px 0px 0px 0px;
-}
-
-.section_career_text_part1 {
-    font-size: 16px;
-    text-align: left;
-    line-height: 2;
-    padding: 28px 0px 0px 0px;
-}
-
-.section_career_text_part2 {
-    font-size: 16px;
-    text-align: left;
-    padding: 28px 0px 0px 0px;
-}
-
-
 /*section about me*/
 .section_about_me {
     padding: 50px 0;

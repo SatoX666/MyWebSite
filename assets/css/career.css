@@ -1,0 +1,68 @@
+/*section career text*/
+.career {
+    /*background: url("../images/")*/
+    height: 630px;
+    background: black;
+}
+
+.career .transition {
+    color: white;
+    font-size: 74px;
+    font-family: Robotic;
+    cursor: default;
+
+    display: flex;
+    justify-content: center;
+    margin: 200px 0 0 0;
+}
+
+.career_text {
+    /*background: url("../images/");*/
+    background: #333;
+    padding: 3rem 29rem;
+}
+
+.career_text .default {
+    color: white;
+    font-size: 16px;
+    font-family: Robotic;
+    cursor: default;
+    text-align: left;
+    line-height: 2;
+}
+
+.career_text .quotation {
+    color: white;
+    font-size: 20px;
+    font-family: Robotic;
+    cursor: default;
+    text-align: left;
+}
+
+.career_text .with_quotation {
+    color: white;
+    font-size: 20px;
+    font-family: Robotic;
+    text-shadow: 0 0 5px black;
+    position: relative;
+}
+
+.career_text .with_quotation::before {
+    background: url("../images/quotation.png");
+    background-size: 70px 70px;
+    content: " ";
+    height: 70px;
+    width: 70px;
+    display: block;
+}
+
+/*.career_text .image {
+    height: 190px;
+    width: 200px;
+}
+
+.career_text .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}*/
