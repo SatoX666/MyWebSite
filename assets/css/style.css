@@ -117,7 +117,7 @@ nav a:hover:after, nav label:hover:after {
 }
 
 .social_media a {
-    color: #fce38a;
+    color: whitesmoke;
     font-size: 14pt;
 }
 
@@ -220,40 +220,64 @@ body {
     text-decoration: underline;
 }
 
-/*section career*/
-.career {
-    padding: 170px 0;
-    background: grey;
-}
-
-.section_transition_career {
-    margin: 0px auto 40px;
-}
-
-.section_transition_career_text {
-    font-size: 84px;
-    font-family: Arial Narrow, sans-serif;
-    color: white;
-    cursor: default;
-    text-align: center;
-}
-
-/*section about me*/
-.section_about_me {
-    padding: 50px 0;
-    background: gray;
-}
-
-/*section about me list*/
-.section_about_me_list {
-    padding: 50px 0;
-    background: black;
-}
-
 /*section contact*/
-.section_contact {
+.contact {
     padding: 50px 0;
     background: #333;
+}
+
+.contact .join {
+    color: white;
+    font-size: 32px;
+    font-family: Robotic;
+    cursor: default;
+
+    display: flex;
+    justify-content: center;
+    padding: 0 0 7rem;
+}
+
+.contact .container {
+    display: flex;
+    align-items: center;
+    padding: 0 20rem;
+    gap: 3rem;
+}
+
+.contact .image {
+    height: 370px;
+    width: 610px;
+}
+
+.contact .title {
+    color: white;
+    font-size: 64px;
+    font-family: Robotic;
+    cursor: default;
+
+    position: absolute;
+    height: 21rem;
+    right: 46rem;
+}
+
+.contact .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .right {
+    padding: 0 0 30px 30px;
+}
+
+.info .title {
+    font-size: 64px;
+}
+
+.info .default {
+    color: white;
+    font-size: 16px;
+    font-family: Robotic;
+    cursor: default;
 }
 
 @media screen and (max-width: 800px) {

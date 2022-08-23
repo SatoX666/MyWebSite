@@ -1,8 +1,9 @@
-/*section career text*/
+/*section career*/
 .career {
     /*background: url("../images/")*/
     height: 630px;
     background: black;
+    padding: 170px 0;
 }
 
 .career .transition {
