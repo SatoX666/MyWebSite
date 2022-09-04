@@ -122,6 +122,8 @@ nav a:hover:after, nav label:hover:after {
 }
 
 body {
+    width: 100vw;
+    overflow-x: hidden; /*Hide horizontal scrollbar*/
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
@@ -203,9 +205,9 @@ body {
     font-family: Robotic;
     cursor: default;
     
-    position: absolute;
-    bottom: -32rem;
-    left: 51rem;
+    margin: 200px 0px 0px 0px;
+    right: 0;
+    left: 0;
 }
 
 /* GitHub link*/

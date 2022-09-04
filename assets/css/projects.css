@@ -2,6 +2,10 @@
     background: url("../images/Lazarus-section-background.png")
 }
 
+.skill .icon {
+    width: 330px;
+}
+
 .GameMakerStudio2 {
     background: url("../images/GameMakersection-background.png")
 }
@@ -15,6 +19,8 @@
 }
 
 .skill {
+    width: 100%;
+
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -26,7 +32,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 5rem 3rem;
-    gap: 45rem;
+   /* gap: 45rem;*/
     height: 100%;
 }
 
@@ -51,7 +57,7 @@
 }
 
 .skill .icon {
-    width: 250px;
+    width: 330px;
 }
 
 .skill .with_quotation {
